@@ -1,9 +1,10 @@
+package coding1.tt;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 import java.util.stream.Collectors;
 
-class Solution {
+class lv1_1 {
     public int[] solution(String[] id_list, String[] report, int k) {
         List<String> list = Arrays.stream(report).distinct().collect(Collectors.toList());
         HashMap<String, Integer> count = new HashMap<>();
