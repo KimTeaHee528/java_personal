@@ -13,6 +13,8 @@ public class tr2 {
 		
 		tr studentKim = new tr(555555,"Kimmm","사우디");
 		studentKim.showStudentInfo();
+		
+		System.out.println(studentKim.getStudentName() + studentLee.getStudentName());
 	}
 
 }
