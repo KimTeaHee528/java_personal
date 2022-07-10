@@ -23,8 +23,8 @@ public class Student {
 	public void showScoreInFo() {
 		int total = korea.score + math.score;
 
-		System.out.println(korea.subjectName + "학생의 점수는");
-		System.out.println("국어" + korea.score + " 수학" + math.score);
+		System.out.println(studentName + " 학생의 점수는");
+		System.out.println(korea.subjectName + korea.score + math.subjectName + math.score);
 		System.out.println("총점은" + total + "입니다.");
 	}
 }
