@@ -1,4 +1,5 @@
 package java_personal.tt;
+import java.util.Scanner;
 
 public class aaaa {
 	public static void main(String[] args) {
