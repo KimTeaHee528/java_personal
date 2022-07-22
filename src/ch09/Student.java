@@ -28,3 +28,4 @@ public class Student {
 		System.out.println("총점은" + total + "입니다.");
 	}
 }
+  
